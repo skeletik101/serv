@@ -4,9 +4,8 @@
  * @link https://vk.com/advelsert
 '
 #!/bin/bash
-sudo mv bin.zip ..
 apt install unzip
-cd ..
+unzip ./serv.zip
 mkdir bin
 sudo mv bin.zip ./bin
 cd bin
@@ -18,5 +17,4 @@ rm -r ./start.php
 rm -r ./start.cmd
 rm -r ./start.ps1
 echo "[ОК] Сервер успешно установлен."
-echo "[INFO] Сервер успешно установлен. Для запуска введите ./start.sh -l"
-rm -r serv
+echo "[INFO] Сервер успешно установлен."
