@@ -3,13 +3,16 @@
 <b>Для установки на VDS сервер майнкрафт сервера выполните следующие команды (можно скопировать и вставить сразу):</b>
 
 ```bash
-git clone https://github.com/LiteCoreTeam/LiteCore
-cd LiteCore 
+mkdir serv
+cd serv 
 git clone https://github.com/skeletik101/serv
 cd serv
 chmod 777 upload.sh
 ./upload.sh
 cd ..
+cd ..
+
+
 ```
 
 <h1>Раздел 2. Запуск.</h1>
@@ -22,7 +25,7 @@ screen
 <b>Вы открыли screen. Теперь надо запустить сервер:</b>
 
 ```
-cd LiteCore
+cd serv
 ./start.sh -l
 ```
 
