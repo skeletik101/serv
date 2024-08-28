@@ -39,8 +39,8 @@ screen -r
 
 <b>Если все открылось - отлично, вы можете пользоваться консолью,  а вот если вам пишет что-то по типу:</b><br>
 <I>
-There are screens ....:
-        32328.test  (Detached)
+There are screens ....:<br>
+        32328.test  (Detached)<br>
         32482.test      (Detached)</I><br>
       <b>То вам следует выполнить команду</b>
       
