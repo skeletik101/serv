@@ -3,8 +3,6 @@
 <b>Для установки на VDS сервер майнкрафт сервера выполните следующие команды (можно скопировать и вставить сразу):</b>
 
 ```bash
-mkdir serv
-cd serv 
 git clone https://github.com/skeletik101/serv
 cd serv
 chmod 777 upload.sh
