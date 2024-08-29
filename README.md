@@ -7,8 +7,8 @@ git clone https://github.com/skeletik101/serv
 cd serv
 chmod 777 upload.sh
 ./upload.sh
-cd ..
-cd ..
+cd
+cd
 
 
 ```
